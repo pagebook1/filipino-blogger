@@ -1,0 +1,62 @@
+# Site
+name: "Filipino Blogger"
+description: "Welcome to Filipino Blogger, your ultimate destination for all things related to the vibrant world of Filipino blogging! Our site is dedicated to showcasing the rich and diverse narratives, insights, and talents of Filipino bloggers from all walks of life."
+logo: "assets/images/logo.png"
+favicon: "assets/images/favicon.ico"
+baseurl: /
+disqus: "filipinoblogger"
+email: "pageboook.kev@gmail.com"
+# mailchimp-list: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+authors:
+  Kevin:
+    name: Kevin
+    site: https://github.com/pagebook1
+    avatar: https://avatars.githubusercontent.com/u/47450220
+    bio: "Hi, I am Kevin, the author of Filipino Blogger. Hope you like it here!"
+    email: pagebook.kev@gmail.com
+    twitter: https://twitter.com/
+
+# Defaults
+defaults:
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: Kevin
+      avatar: https://avatars.githubusercontent.com/u/47450220
+
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude:
+  [
+    README.markdown,
+    package.json,
+    grunt.js,
+    Gruntfile.js,
+    Gruntfile.coffee,
+    node_modules,
+  ]
