@@ -3,7 +3,8 @@ name: "Filipino Blogger"
 description: "Welcome to Filipino Blogger, your ultimate destination for all things related to the vibrant world of Filipino blogging! Our site is dedicated to showcasing the rich and diverse narratives, insights, and talents of Filipino bloggers from all walks of life."
 logo: "assets/images/logo.png"
 favicon: "assets/images/favicon.ico"
-baseurl: /
+# url: "http://localhost:4000"
+baseurl: 
 disqus: "filipinoblogger"
 email: "pageboook.kev@gmail.com"
 # mailchimp-list: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
