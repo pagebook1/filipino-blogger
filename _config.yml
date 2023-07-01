@@ -18,7 +18,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-truncate-html
 
 authors:
   Kevin:
