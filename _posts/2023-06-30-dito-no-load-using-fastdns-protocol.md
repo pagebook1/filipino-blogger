@@ -3,6 +3,8 @@ layout: post
 published: true
 title: "DITO No Load Using Fastdns Protocol"
 image: "assets/images/1e225142d75696d71ee91a1132e33c8b9efb1c74.jpg"
+categories:
+    - internet
 
 ---
 

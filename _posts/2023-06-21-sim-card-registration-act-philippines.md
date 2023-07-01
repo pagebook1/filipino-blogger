@@ -1,8 +1,9 @@
-<div class="separator" style="clear: both; text-align: center">
-  <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjodewUjj0Z1tHWCnZRsIY-7ZkNIT6yGj8u2i9m1vQymp4QtTjZ-98W6D5NmT1tI37RXag1gjyW3XGCewDqAJkmUw3X_vG2m0IJXMr5MtE_wufwuoFd1Zxiki86ooa6E4Ok8TqHpTh4r0hH77sU5s5FfoABZvfFtkft_OKgpBun6naoON-qG3rPYsyhx5Y/s1920/cold,%20smooth%20&amp;%20tasty.%20(1).png" imageanchor="1" style="margin-left: 1em; margin-right: 1em">
-    <img alt="sim card registration act philippines" border="0" data-original-height="1080" data-original-width="1920" height="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjodewUjj0Z1tHWCnZRsIY-7ZkNIT6yGj8u2i9m1vQymp4QtTjZ-98W6D5NmT1tI37RXag1gjyW3XGCewDqAJkmUw3X_vG2m0IJXMr5MtE_wufwuoFd1Zxiki86ooa6E4Ok8TqHpTh4r0hH77sU5s5FfoABZvfFtkft_OKgpBun6naoON-qG3rPYsyhx5Y/w640-h360/cold,%20smooth%20&amp;%20tasty.%20(1).png" title="sim card registration act philippines" width="640" />
-  </a>
-</div>
+---
+date: '2023-06-21T23:42:00.004+08:00'
+image: assets/images/extended-sim-card-registration-act-philippines.png
+categories:
+    - telecom
+---
 <div class="separator" style="clear: both; text-align: center"><br /></div>
 On June 28, 2022, President Ferdinand "Bongbong" Marcos Jr. signed the Sim Card Registration Act, Republic Act No. 11934, making it the first law he signed as the Philippines' chief executive. The Sim Card Registration Act Philippines aims to promote accountability in the use of SIM cards and aid law enforcers in tracking perpetrators of phone-related crimes.
 
