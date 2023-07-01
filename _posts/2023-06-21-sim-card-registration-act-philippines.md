@@ -1,6 +1,6 @@
 ---
 date: '2023-06-21T23:42:00.004+08:00'
-image: assets/images/extended-sim-card-registration-act-philippines.png
+image: assets/images/sim-card-registration-act-philippines.png
 categories:
     - telecom
 ---
