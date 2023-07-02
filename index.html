@@ -226,8 +226,10 @@ Filipino bloggers from all walks of life."
             {% for post in paginator.posts %}
 
             {% include main-loop-card.html %}
-            
-            {% include adsense.html %}
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+                {% include adsense.html %}
+            </div>
+
             {% endfor %}
 
             <div class="mt-5">
