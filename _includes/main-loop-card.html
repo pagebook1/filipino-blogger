@@ -1,28 +1,51 @@
 <div class="mb-5 d-flex justify-content-between main-loop-card">
-	 {%include adsense.html%}
-<div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
-	</h2>
-	<p class="excerpt">
-	   {{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}
-	</p>
-	<small class="d-block text-muted">
-		In <span class="catlist">
-		{% for category in post.categories %}
-		<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-		{% endfor %}
-		</span>
-	</small>
-	<small class="text-muted">
-		{{ post.date | date: '%b %d, %Y' }}
-	</small>
-</div>
-{% if post.image %}
-	<div class="col-md-3 pr-0 text-right">
-	<a href="{{site.baseurl}}{{post.url}}">
-	<img class="w-100" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
-	</a>
-	</div>
-{% endif %}
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8003362447333262"
+    crossorigin="anonymous"
+  ></script>
+  <!-- adtop_3 -->
+  <ins
+    class="adsbygoogle"
+    style="display: block"
+    data-ad-client="ca-pub-8003362447333262"
+    data-ad-slot="6612648843"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+  ></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+  <div class="pr-3">
+    <h2 class="mb-1 h4 font-weight-bold">
+      <a class="text-dark" href="{{site.baseurl}}{{post.url}}"
+        >{{ post.title }}</a
+      >
+    </h2>
+    <p class="excerpt">
+      {{ post.excerpt | strip_html | strip_newlines | truncate: 186}}
+    </p>
+    <small class="d-block text-muted">
+      In
+      <span class="catlist">
+        {% for category in post.categories %}
+        <a
+          class="text-capitalize text-muted smoothscroll"
+          href="{{site.baseurl}}/categories.html#{{ category | downcase }}"
+          >{{ category }}</a
+        ><span class="sep">, </span>
+        {% endfor %}
+      </span>
+    </small>
+    <small class="text-muted"> {{ post.date | date: '%b %d, %Y' }} </small>
+  </div>
+  {% if post.image %}
+  <div class="col-md-3 pr-0 text-right">
+    <a href="{{site.baseurl}}{{post.url}}">
+      <img class="w-100" src="{% if post.image contains "://" %}{{ post.image
+      }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{
+      post.title }}">
+    </a>
+  </div>
+  {% endif %}
 </div>
