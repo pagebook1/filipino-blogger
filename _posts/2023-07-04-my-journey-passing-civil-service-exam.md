@@ -16,7 +16,7 @@ tags:
 
 ## A Fresh Graduate Steps into the Civil Service Exam Journey
 
-Being a 23-year-old fresh graduate with a degree in BSIT, I eagerly embraced the opportunity to take the civil service exam. With a mix of excitement and nervousness, I embarked on this important milestone on March 23, 2023, eager to prove myself in this new endeavor.
+Being a 23-year-old fresh graduate with a degree in BSIT, I eagerly embraced the opportunity to take the civil service exam. With a mix of excitement and nervousness, I embarked on this important milestone on March 26, 2023, eager to prove myself in this new endeavor.
 
 ## Preparation and Resourcefulness
 
