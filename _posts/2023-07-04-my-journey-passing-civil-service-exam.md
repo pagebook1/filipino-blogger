@@ -11,6 +11,7 @@ tags:
     - exam
     - stories
     - featured
+    - sticky
 
 ---
 
